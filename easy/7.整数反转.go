@@ -11,5 +11,5 @@ func reverse(x int) (rev int) {
 		x /= 10
 		rev = rev*10 + digit
 	}
-	return
+	return rev
 }
