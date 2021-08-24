@@ -1,6 +1,6 @@
 package easy
 
-func isPalindrome(x int) bool {
+func isPalindrome1(x int) bool {
 	// 特殊情况：
 	// 如上所述，当 x < 0 时，x 不是回文数。
 	// 同样地，如果数字的最后一位是 0，为了使该数字为回文，

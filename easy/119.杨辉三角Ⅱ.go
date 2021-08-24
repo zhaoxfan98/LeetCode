@@ -15,7 +15,7 @@ func getRow(rowIndex int) []int {
 }
 
 //注意到对第 i+1i+1 行的计算仅用到了第 ii 行的数据，因此可以使用滚动数组的思想优化空间复杂度
-func getRow(rowIndex int) []int {
+func getRow1(rowIndex int) []int {
 	var pre, cur []int
 	for i := 0; i <= rowIndex; i++ {
 		cur = make([]int, i+1)
